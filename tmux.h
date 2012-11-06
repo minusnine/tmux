@@ -1982,7 +1982,7 @@ void	 grid_move_cells(struct grid *, u_int, u_int, u_int, u_int);
 char	*grid_string_cells(struct grid *, u_int, u_int, u_int);
 void	 grid_duplicate_lines(
 	     struct grid *, u_int, struct grid *, u_int, u_int);
-void	 grid_reflow(struct grid *, struct grid *, u_int);
+void	 grid_reflow(struct grid *, const struct grid *, u_int);
 
 /* grid-utf8.c */
 size_t	 grid_utf8_size(const struct grid_utf8 *);
